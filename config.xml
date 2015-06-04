@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+		xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "com.phonegap.prueba"
+		versionCode = "1" 
+		version     = "1.0.0" >
+
+	<!-- versionCode is optional and Android only -->
+
+	<name>MINEDU Prueba de GPS</name>
+
+	<description>
+		MINEDU Sistema de Monitoreo - Prueba de GPS
+	</description>
+
+	<author href="http://www.devconsulting.com.pe" email="jmiranda.sistemas@gmail.com">
+		Aynitech
+	</author>
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.2" />
+	<gap:plugin name="org.apache.cordova.device" version="0.2.12"  />
+
+	<access origin="*" />
+
+</widget>
